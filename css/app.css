@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* 1REM = 10px */
+    font-size: 62.5%; 
 }
 *, *:before, *:after {
     box-sizing: inherit;
@@ -11,7 +11,7 @@ body {
     line-height: 2;
 }
 
-/* Globales */
+/* Global */
 h1, 
 h2, 
 h3 {
@@ -47,6 +47,7 @@ a {
     text-decoration: none;
     color: #000;
 }
+
 .contenedor {
     max-width: 120rem;
     margin: 0 auto;
@@ -97,7 +98,7 @@ img {
 }
 
 
-/** Header y Navegacion **/
+/** Header and Navs **/
 .nombre-sitio {
     margin-top: 5rem;
     text-align: center;
@@ -123,7 +124,7 @@ img {
 }
 
 .hero {
-    background-image: url(../img/principal.jpg);
+    background-image: url(../img/main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -136,7 +137,7 @@ img {
     }
 }
 
-/** Categorias **/
+/** Categories **/
 .categorias {
     padding: 5rem 0;
 }
@@ -173,9 +174,9 @@ img {
     
 }
 
-/** Bloque Nosotros */
+/* About us */
 .sobre-nosotros {
-    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
+    background-image: linear-gradient( to bottom, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/aboutus.jpg);
     background-position: center, top left;
     background-repeat: no-repeat;
     background-size: 100%, 70rem;
@@ -183,7 +184,7 @@ img {
 
 @media (min-width: 768px) { 
     .sobre-nosotros {
-        background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/nosotros.jpg);
+        background-image: linear-gradient( to right, transparent 50%, #037bc0 50%, #037bc0 100% ), url(../img/aboutus.jpg);
         background-position: left center ;
         padding: 10rem 0;
         background-size: 100%, 160rem;
@@ -211,7 +212,7 @@ img {
     }
 }
 
-/** Listado de Productos **/
+/** Product List **/
 .contenido-principal {
     padding-top: 5rem;
 }
@@ -337,7 +338,7 @@ img {
     text-align: center;
 }
 
-/** Nosotros **/
+/** About us **/
 .contenido-nosotros {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -403,7 +404,7 @@ img {
     margin: 0 auto;
 }
 
-/** Galeria **/
+/** Gallery **/
 .galeria {
     list-style: none;
     padding: 0;
@@ -424,7 +425,7 @@ img {
     width: 40rem;
     object-fit: cover;
 }
-/* Formulario */
+/* Form */
 .formulario {
     max-width: 60rem;
     margin: 0 auto;
